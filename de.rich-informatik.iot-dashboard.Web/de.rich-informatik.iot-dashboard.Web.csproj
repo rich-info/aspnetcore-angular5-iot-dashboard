@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptCompilerBlocked>true</TypeScriptCompilerBlocked>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="ClientApp\src\assets\images\" />
+    <Folder Include="ClientApp\src\app\components\" />
+    <Folder Include="ClientApp\src\app\providers\" />
+    <Folder Include="ClientApp\src\app\shared\" />
+    <Folder Include="ClientApp\src\app\models\" />
+    <Folder Include="ClientApp\src\app\components\about\" />
+    <Folder Include="ClientApp\src\app\components\home\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\de.rich-informatik.iot-dashboard.Model\de.rich-informatik.iot-dashboard.Model.csproj" />
+    <ProjectReference Include="..\de.rich-informatik.iot-dashboard.Logic\de.rich-informatik.iot-dashboard.Logic.csproj" />
+  </ItemGroup>
+</Project>
