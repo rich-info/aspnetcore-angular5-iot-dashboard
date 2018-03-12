@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.rich-informatik.iot-dashboard.Data", "de.rich-informatik.iot-dashboard.Data\de.rich-informatik.iot-dashboard.Data.csproj", "{AD5CA755-7A5C-4D0F-AFF0-5F13E4B6CE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.rich-informatik.iot-dashboard.Logic", "de.rich-informatik.iot-dashboard.Logic\de.rich-informatik.iot-dashboard.Logic.csproj", "{D612E2A1-CDCD-4585-B047-D26F31E4F679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.rich-informatik.iot-dashboard.Model", "de.rich-informatik.iot-dashboard.Model\de.rich-informatik.iot-dashboard.Model.csproj", "{3F388BBB-41BF-47F3-B964-5D2AC62B29DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.rich-informatik.iot-dashboard.Web", "de.rich-informatik.iot-dashboard.Web\de.rich-informatik.iot-dashboard.Web.csproj", "{8BC56BA9-9D75-4342-A181-D150CDDED8F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD5CA755-7A5C-4D0F-AFF0-5F13E4B6CE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5CA755-7A5C-4D0F-AFF0-5F13E4B6CE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5CA755-7A5C-4D0F-AFF0-5F13E4B6CE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5CA755-7A5C-4D0F-AFF0-5F13E4B6CE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D612E2A1-CDCD-4585-B047-D26F31E4F679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D612E2A1-CDCD-4585-B047-D26F31E4F679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D612E2A1-CDCD-4585-B047-D26F31E4F679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D612E2A1-CDCD-4585-B047-D26F31E4F679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F388BBB-41BF-47F3-B964-5D2AC62B29DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F388BBB-41BF-47F3-B964-5D2AC62B29DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F388BBB-41BF-47F3-B964-5D2AC62B29DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F388BBB-41BF-47F3-B964-5D2AC62B29DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC56BA9-9D75-4342-A181-D150CDDED8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC56BA9-9D75-4342-A181-D150CDDED8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC56BA9-9D75-4342-A181-D150CDDED8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC56BA9-9D75-4342-A181-D150CDDED8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
