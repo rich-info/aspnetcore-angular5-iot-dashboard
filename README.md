@@ -1,2 +1,3 @@
 # aspnetcore-angular5-iot-dashboard
-![screenshot](aspnetcore-angular5-iot-dashboard/screenshots/iot-dashboard-screenshot.png)
+
+![screenshot](https://github.com/rich-info/aspnetcore-angular5-iot-dashboard/blob/master/screenshots/iot-dashboard-screenshot.png)
